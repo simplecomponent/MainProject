@@ -1,0 +1,23 @@
+{
+  "name": "Target_Native_Wallet",
+  "version": "1",
+  "summary": "Target_Native_Wallet.",
+  "description": "this is Target_Native_Wallet",
+  "homepage": "https://github.com/simplecomponent/Target_Native_Wallet",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/simplecomponent/Target_Native_Wallet.git",
+    "tag": "1"
+  },
+  "source_files": "Target_Native_Wallet/Target_Native_Wallet/**/*.{h,m,swift}",
+  "requires_arc": true
+}

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CTMediator
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -40,7 +40,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        print(url)
+        
+        CTMediator.sharedInstance()?.performAction(with: url, completion: { (result) in
+            if let target = result?["result"] as? UIViewController{
+                //                    weakSelf.window?.rootViewController?.navigationController?.pushViewController(target, animated: true)
+                UINavigationController.currentViewController()?.navigationController?.pushViewController(target, animated: true)
+            }
+        })
+        return true
+    }
 
 }
 
+extension UIViewController {
+    class func currentViewController(base: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
+        if let nav = base as? UINavigationController {
+            return currentViewController(base: nav.visibleViewController)
+        }
+        if let tab = base as? UITabBarController {
+            return currentViewController(base: tab.selectedViewController)
+        }
+        if let presented = base?.presentedViewController {
+            return currentViewController(base: presented)
+        }
+        return base
+    }
+}

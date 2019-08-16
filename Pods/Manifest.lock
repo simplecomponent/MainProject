@@ -1,0 +1,39 @@
+PODS:
+  - CTMediator (25)
+  - HomePage (1)
+  - HomePage_Extension (0.0.1):
+    - CTMediator
+  - native_wallet (1)
+  - native_wallet_extension (1):
+    - CTMediator
+
+DEPENDENCIES:
+  - HomePage (from `../HomePage`)
+  - HomePage_Extension (from `../HomePage_Extension`)
+  - native_wallet (from `../native_wallet`)
+  - native_wallet_extension (from `../native_wallet_extension`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  HomePage:
+    :path: "../HomePage"
+  HomePage_Extension:
+    :path: "../HomePage_Extension"
+  native_wallet:
+    :path: "../native_wallet"
+  native_wallet_extension:
+    :path: "../native_wallet_extension"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  HomePage: 4a036d25f363a97d4f3756dd0e3b63a2fb22d792
+  HomePage_Extension: 18288077132f1be6918b5d22f3c4bea5c0c39d77
+  native_wallet: 88082287535a0524f2dd1fd1dbbbdd967792e48d
+  native_wallet_extension: 7e315bef8c9a23192827e2131159b6ea914746f2
+
+PODFILE CHECKSUM: fc080594def8a840bee11e1a70432adba4072f1c
+
+COCOAPODS: 1.8.0.beta.1

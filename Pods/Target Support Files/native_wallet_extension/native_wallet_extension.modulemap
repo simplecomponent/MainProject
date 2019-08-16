@@ -1,0 +1,6 @@
+framework module native_wallet_extension {
+  umbrella header "native_wallet_extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

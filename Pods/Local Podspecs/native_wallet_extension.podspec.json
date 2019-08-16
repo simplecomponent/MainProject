@@ -1,0 +1,28 @@
+{
+  "name": "native_wallet_extension",
+  "version": "1",
+  "summary": "native_wallet_extension.",
+  "description": "this is native_wallet_extension",
+  "homepage": "https://github.com/simplecomponent/native_wallet_extension",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/simplecomponent/native_wallet_extension.git",
+    "tag": "1"
+  },
+  "source_files": "native_wallet_extension/native_wallet_extension/**/*.{h,m,swift}",
+  "requires_arc": true,
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HomePage.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HomePage_Extension.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/native_wallet.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/native_wallet_extension.framework
