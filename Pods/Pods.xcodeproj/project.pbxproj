@@ -7,201 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0526D4E3BEF3AA9A17DE54AA86631468 /* native_wallet_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1667A5DE77F763039DEF98277CC7448D /* native_wallet_extension.swift */; };
-		0A459A4FD45FF14280B001801CB2A7CF /* native_wallet_extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BF32FA9B15BF50AC70CA10CEEDDFF /* native_wallet_extension-dummy.m */; };
-		0C35B001F31AA052E5ECCDD1ADD381D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		142AE246244434DD74BE944E09A2FE1F /* native_wallet_extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0DE07EBDC74642BA66B78FAA84A6EDE /* native_wallet_extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		196127FFEF08CE6A7479C7F41DB37B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1B79A1BDE33C94939F15B409B76E5C /* ViewController.swift */; };
-		19AFA9FCF90D2E400447172ACB034461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14C64F4E764A63B7AD604033A4F5460 /* ViewController.swift */; };
-		231F768A30E90EF854992F15E7745440 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
-		2601A33ECAE5F2E2A863F0A511292AF6 /* Pods-MainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62599745B1D8D8CCFD037E66D458B6 /* Pods-MainProject-dummy.m */; };
-		2E10B5C63CE19583A678E0BB20CFDEB5 /* HomePage_Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FBFC9A3013014169834E80BC42343E /* HomePage_Extension-dummy.m */; };
+		091231AD9867CCB91DF286BD29BB8C07 /* Login_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B071DC0F144C0B96BAC30A4B17AD1B5 /* Login_Extension.swift */; };
+		0B4D789DC760EF6D6384ACC35CC3526E /* Pods-MainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62599745B1D8D8CCFD037E66D458B6 /* Pods-MainProject-dummy.m */; };
+		0F7FEB9233A59556CE3CBD18D38EED4A /* Pods-MainProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F3860AAF18B129EC47EE94F5F14113 /* Pods-MainProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C244BE825F7606282C7B68E7EE4B2E /* Login_Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F88EAFB774CC7F06D96C8132737D71 /* Login_Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		357F3EA1D6E568F4EE52441BF6C00E09 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
 		3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
+		3C6ED903379125D469E6C128CB5AD8E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
+		45E3E7CA116059DEAC2880BD91CAE606 /* Login_Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AF51CA6F2FDBD0B55B9CDFA62D7D9C /* Login_Extension-dummy.m */; };
+		533856510B681721AF4D40075922FC70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE9583674F6AD2D9D4104CB84260F4 /* LoginViewController.swift */; };
 		685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */; };
-		695EBF4DC495E41EBC09A4D28B0990B9 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
-		6E8082012F960D6F13CF867F4A763558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */; };
-		8AE951F30E39887DECA8414C77E558AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		8EF3401D018DF0FC0AC81C5F0C77226F /* Target_native-wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B79C2D66210F85E1D069164BA36DF0 /* Target_native-wallet.swift */; };
-		98F4C9B534B91D065191107F68210230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		99508F5821599D043109A0CBC5867436 /* HomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 761158BECFFA6200D05E6BB777A871FC /* HomePage-dummy.m */; };
-		A35383BED027739FFB4C9EB2D1404288 /* HomePage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E16558BC940BBDF03CE57C3234318CD /* HomePage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB395D09A90D2A408FB35C4E0AA1CA47 /* native_wallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B389314481AC7A8EF8F0A8C0CB356181 /* native_wallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF53C42631D4618B09CF5FEDE6A35302 /* HomePage_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865EB0474A7867C71CCE24DA5A725A87 /* HomePage_Extension.swift */; };
-		C71F57784D2F2F0105F4C7D277FDE59B /* HomePage_Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E56D5AEAC2CD77C1A8C6CDCD810523 /* HomePage_Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD1C30684C3A04E8EA3A36460591B73B /* Target_homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDDE87FBBB9C765118850CE3EF1746 /* Target_homepage.swift */; };
-		D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 844EB007D0882EB6D7D94F6E32F4B565 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEFBE7DE553438B24BB0456891704121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */; };
-		F8B4A98E3B7DF2DAFD89B932E6708BBA /* native_wallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB33CECC8708F3962FF05589DC61DCB /* native_wallet-dummy.m */; };
-		FC115E34D55FECFD1F1DD58246E4B113 /* Pods-MainProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F3860AAF18B129EC47EE94F5F14113 /* Pods-MainProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E56DCB150AB2C551A9E721C6427696 /* CTMediator.m */; };
+		AAADC3CD309A117FE4EF20DBDB0F1929 /* Login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A32F31C132C99954872A116BCF389 /* Login-dummy.m */; };
+		B914F5ABE0FDE193E267F93895612A16 /* Target_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069C8B9E1069D5158257F0142E55FE2A /* Target_Login.swift */; };
+		BAC4CAA1EBA59ECAFD000566AA8D3B8F /* Login-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F063F269B30589CB772F017118D35CB /* Login-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9408E91E3F44A311997E57F846D2CCA /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE9EDE9FE2F15FFE40DAAF96C7C9C96 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6B889889ED912932AB86B9CD802DDDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
+		E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC25759ADD59C9142BE7730869E0A983 /* CTMediator-dummy.m */; };
+		EEBD1A4B270048BD1B9732B60F16F580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		294D88578F23A6F2594D077EF88E3147 /* PBXContainerItemProxy */ = {
+		6318A0F73FEDDEB54A797FFC7F05ADA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891BBD7E4D1F54F814E1415417E2BC3B;
+			remoteInfo = Login;
+		};
+		6D432CA237D0A9249E9AB7B73BB90073 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
 			remoteInfo = CTMediator;
 		};
-		8F533D680BC1E4A9E283B907DF501688 /* PBXContainerItemProxy */ = {
+		7FB6AC972DEC7EB44FF277AD4AC66C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16457CBB6771211DB10E21C2A3AAF08C;
+			remoteInfo = Login_Extension;
+		};
+		AFFC16BC01D626876137FBE160EF1A06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
 			remoteInfo = CTMediator;
-		};
-		B227CA543FB7892C60BA26B0B8605987 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		BC2CA44D958B7063F34B20B5AB355E4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A85D31EA1584C56221BEEFDF804A5C07;
-			remoteInfo = HomePage_Extension;
-		};
-		D0D2DE1F4CCDE9A88A9C8404A14C2098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AFCA61B85511CB6CA475E147FDDE1BC7;
-			remoteInfo = HomePage;
-		};
-		E027A7D552F15262A2178497CB6EB7EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 353FFFDC6DB3B94A95432D836D21365B;
-			remoteInfo = native_wallet;
-		};
-		E47B2B4C2AE6DE3BB8998CE9E5529823 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAA50F667E5AF1FC703784348CF36889;
-			remoteInfo = native_wallet_extension;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C1E8EEA86B8E292D05F08B77CCEC1D /* HomePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HomePage.framework; path = HomePage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		069C8B9E1069D5158257F0142E55FE2A /* Target_Login.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_Login.swift; path = Login/Login/Target_Login.swift; sourceTree = "<group>"; };
 		070FCFAE13FA180851839D655E1B60DE /* Pods-MainProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		07783BD69EDED6FA6D426DC175925CC4 /* HomePage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HomePage.xcconfig; sourceTree = "<group>"; };
-		0AB33CECC8708F3962FF05589DC61DCB /* native_wallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "native_wallet-dummy.m"; sourceTree = "<group>"; };
-		0DD58DB5C3E874CE257D50065698DB2F /* native_wallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = native_wallet.modulemap; sourceTree = "<group>"; };
-		1153E8AEF202191B4A1BFB0E30EBC5F4 /* native_wallet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = native_wallet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		11E1F199429F3CDF6387052D820661C0 /* native_wallet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "native_wallet-prefix.pch"; sourceTree = "<group>"; };
-		136710C8D388F6F57B339B832B1F1929 /* readme.md */ = {isa = PBXFileReference; includeInIndex = 1; path = readme.md; sourceTree = "<group>"; };
-		148C42892604FB1879C59451DBFB9E58 /* HomePage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HomePage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1667A5DE77F763039DEF98277CC7448D /* native_wallet_extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = native_wallet_extension.swift; path = native_wallet_extension/native_wallet_extension/native_wallet_extension.swift; sourceTree = "<group>"; };
-		177AC4E9E7E12CB08A2786F6FEF88394 /* FILE_LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = FILE_LICENSE; sourceTree = "<group>"; };
-		17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
-		18E9C41B1F688006A005B0B970FFA33C /* native_wallet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = native_wallet.xcconfig; sourceTree = "<group>"; };
-		1E1F9D3F5598638DAEC0652E749F33E2 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
-		1EB618B2BCC9E790C4095DFFEFC2FD43 /* native_wallet_extension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = native_wallet_extension.xcconfig; sourceTree = "<group>"; };
-		22E08C239DEBE81293B778A889DD0199 /* readme.md */ = {isa = PBXFileReference; includeInIndex = 1; path = readme.md; sourceTree = "<group>"; };
+		0DE9EDE9FE2F15FFE40DAAF96C7C9C96 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		0E26FB0BAD54C28769C80296816E3E2D /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		217D368BCF4642ACBC0EDFE2066316E8 /* Login-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login-prefix.pch"; sourceTree = "<group>"; };
+		23326CE0F260FF640EF0AFF6B9B2E948 /* Login_Extension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Login_Extension.xcconfig; sourceTree = "<group>"; };
 		2D025AD97C6590A9D617399C0C1F172D /* Pods_MainProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MainProject.framework; path = "Pods-MainProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E6A4A6EEFAC63207C5D12B826CC4356 /* FILE_LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = FILE_LICENSE; sourceTree = "<group>"; };
-		300715D7B9CD5F679DA52187FC2E5DF3 /* native_wallet_extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = native_wallet_extension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		33FB17D33FE546F4051C9F4641FDE1E3 /* native_wallet_extension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "native_wallet_extension-prefix.pch"; sourceTree = "<group>"; };
 		3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3804950B7816E4F356395ECB0FA39CBA /* Pods-MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.release.xcconfig"; sourceTree = "<group>"; };
-		3DC8C3B796058DD62B63E53C6F2DFFA1 /* HomePage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HomePage-Info.plist"; sourceTree = "<group>"; };
-		3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
-		421B794E610F62A8ADFF1B6114F48A3B /* native_wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = native_wallet.framework; path = native_wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4519472D25828ECF7CA2977A68B0F838 /* HomePage_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HomePage_Extension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
-		54E8A4CE585299D64B7BC8DE58F219EA /* FILE_LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = FILE_LICENSE; sourceTree = "<group>"; };
+		3A0AB929ECC7EC19F7CDEB04E675D74F /* Login_Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Login_Extension.modulemap; sourceTree = "<group>"; };
+		3B071DC0F144C0B96BAC30A4B17AD1B5 /* Login_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Login_Extension.swift; path = Login_Extension/Login_Extension/Login_Extension.swift; sourceTree = "<group>"; };
+		475A32F31C132C99954872A116BCF389 /* Login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Login-dummy.m"; sourceTree = "<group>"; };
 		58F0F5BBE9CA2A908FAE0045766B888E /* Pods-MainProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		62FEBDBC6B5CFEB5E3643E1A4BF59DAF /* HomePage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HomePage.modulemap; sourceTree = "<group>"; };
 		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		761158BECFFA6200D05E6BB777A871FC /* HomePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HomePage-dummy.m"; sourceTree = "<group>"; };
-		7C6BF32FA9B15BF50AC70CA10CEEDDFF /* native_wallet_extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "native_wallet_extension-dummy.m"; sourceTree = "<group>"; };
+		6F063F269B30589CB772F017118D35CB /* Login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login-umbrella.h"; sourceTree = "<group>"; };
 		7F825ECE3759C95DAEBF0C0B4587DA92 /* Pods-MainProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MainProject.modulemap"; sourceTree = "<group>"; };
 		7FE866BDA50DBF1E474253E8420B8D05 /* Pods-MainProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainProject-frameworks.sh"; sourceTree = "<group>"; };
-		844EB007D0882EB6D7D94F6E32F4B565 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
-		865EB0474A7867C71CCE24DA5A725A87 /* HomePage_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomePage_Extension.swift; path = HomePage_Extension/HomePage_Extension/HomePage_Extension.swift; sourceTree = "<group>"; };
-		97D7653F0ED46117B76DCC99900EBEA6 /* native_wallet_extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = native_wallet_extension.modulemap; sourceTree = "<group>"; };
+		819FC7E63C0F4E241B45653D8B3771D0 /* Login_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Login_Extension.framework; path = Login_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A38866A97478F24DFDB3E59FB9D9ECE /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD39810CB05DDCA7F4DD0B439131F59 /* Pods-MainProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-Info.plist"; sourceTree = "<group>"; };
-		9E16558BC940BBDF03CE57C3234318CD /* HomePage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomePage-umbrella.h"; sourceTree = "<group>"; };
-		9E32F2C6E3EBB199AEEDEF8F835E756D /* HomePage_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HomePage_Extension.framework; path = HomePage_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
-		A0DE07EBDC74642BA66B78FAA84A6EDE /* native_wallet_extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "native_wallet_extension-umbrella.h"; sourceTree = "<group>"; };
-		A0F8EAD9E040952F3296782843677A38 /* HomePage_Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HomePage_Extension.modulemap; sourceTree = "<group>"; };
-		A843FA0A92BD15DC06FC4C51B5AB136E /* HomePage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomePage-prefix.pch"; sourceTree = "<group>"; };
+		A05647B3F57BA5BEA54B91622FCCECA2 /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		A7AE3C66AC0ABED2F44A5E77228D43AA /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
 		A8F3860AAF18B129EC47EE94F5F14113 /* Pods-MainProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MainProject-umbrella.h"; sourceTree = "<group>"; };
-		AC947478A95C5B57D5D9FA91513E0610 /* HomePage_Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HomePage_Extension-Info.plist"; sourceTree = "<group>"; };
-		B1E412AF39136405C432C6C3713E95D2 /* native_wallet_extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "native_wallet_extension-Info.plist"; sourceTree = "<group>"; };
-		B389314481AC7A8EF8F0A8C0CB356181 /* native_wallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "native_wallet-umbrella.h"; sourceTree = "<group>"; };
+		B002B408AC89F2D37141E14B7509EA65 /* Login.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Login.modulemap; sourceTree = "<group>"; };
+		B61F2967B073045D0B21A67D9637FBB3 /* Login-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Login-Info.plist"; sourceTree = "<group>"; };
 		B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCBDDE87FBBB9C765118850CE3EF1746 /* Target_homepage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_homepage.swift; path = HomePage/HomePage/Target_homepage.swift; sourceTree = "<group>"; };
-		C0D54C0D37D90A8889A39AF7424BC9BA /* native_wallet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "native_wallet-Info.plist"; sourceTree = "<group>"; };
-		C14C64F4E764A63B7AD604033A4F5460 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = HomePage/HomePage/ViewController.swift; sourceTree = "<group>"; };
-		C23C00611252C9357DC48711D2198DAA /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
-		C5294C5DFDFEF87D9DC045D3275A9FEE /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		B9AF51CA6F2FDBD0B55B9CDFA62D7D9C /* Login_Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Login_Extension-dummy.m"; sourceTree = "<group>"; };
+		B9F88EAFB774CC7F06D96C8132737D71 /* Login_Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login_Extension-umbrella.h"; sourceTree = "<group>"; };
+		B9FCB2420976D906D644B2915A4A009B /* Login.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Login.xcconfig; sourceTree = "<group>"; };
+		C8E56DCB150AB2C551A9E721C6427696 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		CC25759ADD59C9142BE7730869E0A983 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		CC62599745B1D8D8CCFD037E66D458B6 /* Pods-MainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainProject-dummy.m"; sourceTree = "<group>"; };
 		CEFDAAADFB97861B33BE3BB603512BD4 /* Pods-MainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.debug.xcconfig"; sourceTree = "<group>"; };
-		D0FBFC9A3013014169834E80BC42343E /* HomePage_Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HomePage_Extension-dummy.m"; sourceTree = "<group>"; };
-		D4B79C2D66210F85E1D069164BA36DF0 /* Target_native-wallet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Target_native-wallet.swift"; path = "native_wallet/native_wallet/Target_native-wallet.swift"; sourceTree = "<group>"; };
-		E6E56D5AEAC2CD77C1A8C6CDCD810523 /* HomePage_Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomePage_Extension-umbrella.h"; sourceTree = "<group>"; };
-		E78623C618240C7F7A51AA08F4D9C176 /* readme.md */ = {isa = PBXFileReference; includeInIndex = 1; path = readme.md; sourceTree = "<group>"; };
-		E89E50AB5D2148B9841D74C88241BB2F /* readme.md */ = {isa = PBXFileReference; includeInIndex = 1; path = readme.md; sourceTree = "<group>"; };
-		EB69B08C3EA6B54DB4CBEE30ABF5616E /* FILE_LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = FILE_LICENSE; sourceTree = "<group>"; };
-		EBA003F62F3506A44CA2D92085683ADD /* HomePage_Extension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HomePage_Extension.xcconfig; sourceTree = "<group>"; };
-		EF1B79A1BDE33C94939F15B409B76E5C /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = native_wallet/native_wallet/ViewController.swift; sourceTree = "<group>"; };
+		D3BE9583674F6AD2D9D4104CB84260F4 /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Login/Login/LoginViewController.swift; sourceTree = "<group>"; };
+		E1E85615170CEA70D9D863BE10D1D2C3 /* Login_Extension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login_Extension-prefix.pch"; sourceTree = "<group>"; };
+		E9408E91E3F44A311997E57F846D2CCA /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		EBDBFCB579FAB96255C0FC92A24EF09B /* Login_Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Login_Extension-Info.plist"; sourceTree = "<group>"; };
+		F8519B8FDCB6CD208C8556AFA0304B79 /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Login.framework; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FC6B1CFE7295710577273775DFBA6B04 /* native_wallet_extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = native_wallet_extension.framework; path = native_wallet_extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF2E80BA1FBCF69CBFE58931D617D99B /* HomePage_Extension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomePage_Extension-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08A0008C7410509EAA5C44A68F4314A0 /* Frameworks */ = {
+		18D3582C769606F45A92CA95CD60C7FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				231F768A30E90EF854992F15E7745440 /* CTMediator.framework in Frameworks */,
-				8AE951F30E39887DECA8414C77E558AD /* Foundation.framework in Frameworks */,
+				EEBD1A4B270048BD1B9732B60F16F580 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EBBC17EC2C6F363F80F655D3A656DA9 /* Frameworks */ = {
+		B827757C0AE41ABD327033F6E04E44F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E8082012F960D6F13CF867F4A763558 /* Foundation.framework in Frameworks */,
+				E6B889889ED912932AB86B9CD802DDDB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40E0E8AE1432B1E91BFC57789A055F03 /* Frameworks */ = {
+		DE06E38025FDDA649C0268F2404F2793 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F4C9B534B91D065191107F68210230 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D763CFEE2461A2925EB810CB92BA645 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEFBE7DE553438B24BB0456891704121 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2397D811A990826FD9099508C350233 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				695EBF4DC495E41EBC09A4D28B0990B9 /* CTMediator.framework in Frameworks */,
-				0C35B001F31AA052E5ECCDD1ADD381D9 /* Foundation.framework in Frameworks */,
+				357F3EA1D6E568F4EE52441BF6C00E09 /* CTMediator.framework in Frameworks */,
+				3C6ED903379125D469E6C128CB5AD8E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,45 +140,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00DB315DC3A6524101B81CCCACA5684D /* native_wallet_extension */ = {
+		16E32F6B85408A648460779981B91A46 /* Login_Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1667A5DE77F763039DEF98277CC7448D /* native_wallet_extension.swift */,
-				C4795FF88DDF4B5305E79DC649924759 /* Pod */,
-				C92D3D79CCDA52BBF709F18BB70F9AC5 /* Support Files */,
+				3B071DC0F144C0B96BAC30A4B17AD1B5 /* Login_Extension.swift */,
+				E6963F60B95A0812055D20F9A242A0AF /* Support Files */,
 			);
-			name = native_wallet_extension;
-			path = ../../native_wallet_extension;
+			name = Login_Extension;
+			path = Login_Extension;
 			sourceTree = "<group>";
 		};
-		063BF7AEE97A9BC416F3E2A92977507A /* Pods */ = {
+		1E2376CF0DE2AF47D19B17C3D8B4C90B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2E2592B0A77121680C66567F26904FED /* CTMediator */,
+				53C6AF50ED9DEB73FB90A68879BC8D49 /* CTMediator */,
+				7497D0B31B653E52F203CE1B949AA258 /* Login */,
+				16E32F6B85408A648460779981B91A46 /* Login_Extension */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		10D1776166CA9659D2C9582C5C6F08D3 /* native_wallet */ = {
-			isa = PBXGroup;
-			children = (
-				D4B79C2D66210F85E1D069164BA36DF0 /* Target_native-wallet.swift */,
-				EF1B79A1BDE33C94939F15B409B76E5C /* ViewController.swift */,
-				F9B562DDDFAEDEDC48B142CA39FE8660 /* Pod */,
-				C2CD8BE8B03DB7B911C6CC5A90DDFC34 /* Support Files */,
-			);
-			name = native_wallet;
-			path = ../../native_wallet;
-			sourceTree = "<group>";
-		};
-		1CD7DF866B3836B889C3EC2A47F12731 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2E6A4A6EEFAC63207C5D12B826CC4356 /* FILE_LICENSE */,
-				4519472D25828ECF7CA2977A68B0F838 /* HomePage_Extension.podspec */,
-				E78623C618240C7F7A51AA08F4D9C176 /* readme.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		2AE273B70CED94AF07D24BCA3DA1742B /* Pods-MainProject */ = {
@@ -275,43 +177,6 @@
 			path = "Target Support Files/Pods-MainProject";
 			sourceTree = "<group>";
 		};
-		2E2592B0A77121680C66567F26904FED /* CTMediator */ = {
-			isa = PBXGroup;
-			children = (
-				844EB007D0882EB6D7D94F6E32F4B565 /* CTMediator.h */,
-				9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */,
-				E14D928A63EDE2B333128F78CA33B7DC /* Support Files */,
-			);
-			name = CTMediator;
-			path = CTMediator;
-			sourceTree = "<group>";
-		};
-		3404EB359A8D4D843C295B65F4B7ADF2 /* HomePage */ = {
-			isa = PBXGroup;
-			children = (
-				BCBDDE87FBBB9C765118850CE3EF1746 /* Target_homepage.swift */,
-				C14C64F4E764A63B7AD604033A4F5460 /* ViewController.swift */,
-				ACE896A5DBB5895FB8E8572AD30BD8FE /* Pod */,
-				BF6829248DD0C1B5706C16E1670D9F4A /* Support Files */,
-			);
-			name = HomePage;
-			path = ../../HomePage;
-			sourceTree = "<group>";
-		};
-		38B6A7606EE7F1BDB659A50B8E592F3D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A0F8EAD9E040952F3296782843677A38 /* HomePage_Extension.modulemap */,
-				EBA003F62F3506A44CA2D92085683ADD /* HomePage_Extension.xcconfig */,
-				D0FBFC9A3013014169834E80BC42343E /* HomePage_Extension-dummy.m */,
-				AC947478A95C5B57D5D9FA91513E0610 /* HomePage_Extension-Info.plist */,
-				FF2E80BA1FBCF69CBFE58931D617D99B /* HomePage_Extension-prefix.pch */,
-				E6E56D5AEAC2CD77C1A8C6CDCD810523 /* HomePage_Extension-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../MainProject/Pods/Target Support Files/HomePage_Extension";
-			sourceTree = "<group>";
-		};
 		4BD002FB4B633CBBF7421E7F7D4538EA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,14 +186,48 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9277650D84D073BD16BF8B8861F40B26 /* Products */ = {
+		53C6AF50ED9DEB73FB90A68879BC8D49 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				0DE9EDE9FE2F15FFE40DAAF96C7C9C96 /* CTMediator.h */,
+				C8E56DCB150AB2C551A9E721C6427696 /* CTMediator.m */,
+				DC2FC4058B604E64C4C115BE5D99451F /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		7497D0B31B653E52F203CE1B949AA258 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D3BE9583674F6AD2D9D4104CB84260F4 /* LoginViewController.swift */,
+				069C8B9E1069D5158257F0142E55FE2A /* Target_Login.swift */,
+				8C7A0492BE437804BDDE165A2317933C /* Support Files */,
+			);
+			name = Login;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8C7A0492BE437804BDDE165A2317933C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B002B408AC89F2D37141E14B7509EA65 /* Login.modulemap */,
+				B9FCB2420976D906D644B2915A4A009B /* Login.xcconfig */,
+				475A32F31C132C99954872A116BCF389 /* Login-dummy.m */,
+				B61F2967B073045D0B21A67D9637FBB3 /* Login-Info.plist */,
+				217D368BCF4642ACBC0EDFE2066316E8 /* Login-prefix.pch */,
+				6F063F269B30589CB772F017118D35CB /* Login-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Login";
+			sourceTree = "<group>";
+		};
+		8EF7C25C50E32F6176B0A3E1E6E7DD93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */,
-				01C1E8EEA86B8E292D05F08B77CCEC1D /* HomePage.framework */,
-				9E32F2C6E3EBB199AEEDEF8F835E756D /* HomePage_Extension.framework */,
-				421B794E610F62A8ADFF1B6114F48A3B /* native_wallet.framework */,
-				FC6B1CFE7295710577273775DFBA6B04 /* native_wallet_extension.framework */,
+				F8519B8FDCB6CD208C8556AFA0304B79 /* Login.framework */,
+				819FC7E63C0F4E241B45653D8B3771D0 /* Login_Extension.framework */,
 				2D025AD97C6590A9D617399C0C1F172D /* Pods_MainProject.framework */,
 			);
 			name = Products;
@@ -351,134 +250,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ACE896A5DBB5895FB8E8572AD30BD8FE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EB69B08C3EA6B54DB4CBEE30ABF5616E /* FILE_LICENSE */,
-				148C42892604FB1879C59451DBFB9E58 /* HomePage.podspec */,
-				22E08C239DEBE81293B778A889DD0199 /* readme.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BF6829248DD0C1B5706C16E1670D9F4A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				62FEBDBC6B5CFEB5E3643E1A4BF59DAF /* HomePage.modulemap */,
-				07783BD69EDED6FA6D426DC175925CC4 /* HomePage.xcconfig */,
-				761158BECFFA6200D05E6BB777A871FC /* HomePage-dummy.m */,
-				3DC8C3B796058DD62B63E53C6F2DFFA1 /* HomePage-Info.plist */,
-				A843FA0A92BD15DC06FC4C51B5AB136E /* HomePage-prefix.pch */,
-				9E16558BC940BBDF03CE57C3234318CD /* HomePage-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../MainProject/Pods/Target Support Files/HomePage";
-			sourceTree = "<group>";
-		};
-		C2CD8BE8B03DB7B911C6CC5A90DDFC34 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0DD58DB5C3E874CE257D50065698DB2F /* native_wallet.modulemap */,
-				18E9C41B1F688006A005B0B970FFA33C /* native_wallet.xcconfig */,
-				0AB33CECC8708F3962FF05589DC61DCB /* native_wallet-dummy.m */,
-				C0D54C0D37D90A8889A39AF7424BC9BA /* native_wallet-Info.plist */,
-				11E1F199429F3CDF6387052D820661C0 /* native_wallet-prefix.pch */,
-				B389314481AC7A8EF8F0A8C0CB356181 /* native_wallet-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../MainProject/Pods/Target Support Files/native_wallet";
-			sourceTree = "<group>";
-		};
-		C4795FF88DDF4B5305E79DC649924759 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				54E8A4CE585299D64B7BC8DE58F219EA /* FILE_LICENSE */,
-				300715D7B9CD5F679DA52187FC2E5DF3 /* native_wallet_extension.podspec */,
-				136710C8D388F6F57B339B832B1F1929 /* readme.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C6835FD2CF8DFE736EA81DFB71CF7FB3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3404EB359A8D4D843C295B65F4B7ADF2 /* HomePage */,
-				F8E9CC8C1E5BC6EE97EA665DB527AF1A /* HomePage_Extension */,
-				10D1776166CA9659D2C9582C5C6F08D3 /* native_wallet */,
-				00DB315DC3A6524101B81CCCACA5684D /* native_wallet_extension */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C92D3D79CCDA52BBF709F18BB70F9AC5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				97D7653F0ED46117B76DCC99900EBEA6 /* native_wallet_extension.modulemap */,
-				1EB618B2BCC9E790C4095DFFEFC2FD43 /* native_wallet_extension.xcconfig */,
-				7C6BF32FA9B15BF50AC70CA10CEEDDFF /* native_wallet_extension-dummy.m */,
-				B1E412AF39136405C432C6C3713E95D2 /* native_wallet_extension-Info.plist */,
-				33FB17D33FE546F4051C9F4641FDE1E3 /* native_wallet_extension-prefix.pch */,
-				A0DE07EBDC74642BA66B78FAA84A6EDE /* native_wallet_extension-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../MainProject/Pods/Target Support Files/native_wallet_extension";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C6835FD2CF8DFE736EA81DFB71CF7FB3 /* Development Pods */,
 				936D8B2D1396787B21F2145EFEFE16F4 /* Frameworks */,
-				063BF7AEE97A9BC416F3E2A92977507A /* Pods */,
-				9277650D84D073BD16BF8B8861F40B26 /* Products */,
+				1E2376CF0DE2AF47D19B17C3D8B4C90B /* Pods */,
+				8EF7C25C50E32F6176B0A3E1E6E7DD93 /* Products */,
 				A96A5C353EF5F8A6B431639E9E9E5091 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E14D928A63EDE2B333128F78CA33B7DC /* Support Files */ = {
+		DC2FC4058B604E64C4C115BE5D99451F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C23C00611252C9357DC48711D2198DAA /* CTMediator.modulemap */,
-				3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */,
-				17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */,
-				C5294C5DFDFEF87D9DC045D3275A9FEE /* CTMediator-Info.plist */,
-				1E1F9D3F5598638DAEC0652E749F33E2 /* CTMediator-prefix.pch */,
-				4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */,
+				A7AE3C66AC0ABED2F44A5E77228D43AA /* CTMediator.modulemap */,
+				8A38866A97478F24DFDB3E59FB9D9ECE /* CTMediator.xcconfig */,
+				CC25759ADD59C9142BE7730869E0A983 /* CTMediator-dummy.m */,
+				A05647B3F57BA5BEA54B91622FCCECA2 /* CTMediator-Info.plist */,
+				0E26FB0BAD54C28769C80296816E3E2D /* CTMediator-prefix.pch */,
+				E9408E91E3F44A311997E57F846D2CCA /* CTMediator-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CTMediator";
 			sourceTree = "<group>";
 		};
-		F8E9CC8C1E5BC6EE97EA665DB527AF1A /* HomePage_Extension */ = {
+		E6963F60B95A0812055D20F9A242A0AF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				865EB0474A7867C71CCE24DA5A725A87 /* HomePage_Extension.swift */,
-				1CD7DF866B3836B889C3EC2A47F12731 /* Pod */,
-				38B6A7606EE7F1BDB659A50B8E592F3D /* Support Files */,
+				3A0AB929ECC7EC19F7CDEB04E675D74F /* Login_Extension.modulemap */,
+				23326CE0F260FF640EF0AFF6B9B2E948 /* Login_Extension.xcconfig */,
+				B9AF51CA6F2FDBD0B55B9CDFA62D7D9C /* Login_Extension-dummy.m */,
+				EBDBFCB579FAB96255C0FC92A24EF09B /* Login_Extension-Info.plist */,
+				E1E85615170CEA70D9D863BE10D1D2C3 /* Login_Extension-prefix.pch */,
+				B9F88EAFB774CC7F06D96C8132737D71 /* Login_Extension-umbrella.h */,
 			);
-			name = HomePage_Extension;
-			path = ../../HomePage_Extension;
-			sourceTree = "<group>";
-		};
-		F9B562DDDFAEDEDC48B142CA39FE8660 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				177AC4E9E7E12CB08A2786F6FEF88394 /* FILE_LICENSE */,
-				1153E8AEF202191B4A1BFB0E30EBC5F4 /* native_wallet.podspec */,
-				E89E50AB5D2148B9841D74C88241BB2F /* readme.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/Login_Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5DC4AF9B5C6F313B501B2F454ACC604A /* Headers */ = {
+		2509FBA3EF2FF16068C24A64A84ED6CA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB395D09A90D2A408FB35C4E0AA1CA47 /* native_wallet-umbrella.h in Headers */,
+				0F7FEB9233A59556CE3CBD18D38EED4A /* Pods-MainProject-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,57 +309,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A88C3BBA2C0A3F1DCD782C62FAC3CA8 /* Headers */ = {
+		B212929290C421D536E570C6569973A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142AE246244434DD74BE944E09A2FE1F /* native_wallet_extension-umbrella.h in Headers */,
+				34C244BE825F7606282C7B68E7EE4B2E /* Login_Extension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADAF2D10C0CCE8A32E5399C812730E4 /* Headers */ = {
+		B3C7110C1E70E9558849A90523F3CCF7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC115E34D55FECFD1F1DD58246E4B113 /* Pods-MainProject-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8ED8E5DB8B843D4DF18977AB3BBC4F3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C71F57784D2F2F0105F4C7D277FDE59B /* HomePage_Extension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E664AB7D6EF7E0743EB365EECCB8DF08 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A35383BED027739FFB4C9EB2D1404288 /* HomePage-umbrella.h in Headers */,
+				BAC4CAA1EBA59ECAFD000566AA8D3B8F /* Login-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		353FFFDC6DB3B94A95432D836D21365B /* native_wallet */ = {
+		16457CBB6771211DB10E21C2A3AAF08C /* Login_Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DE5F7EFB6815240773C20935E395E28 /* Build configuration list for PBXNativeTarget "native_wallet" */;
+			buildConfigurationList = 5A35B6805B815FFB70854AEB80B85B47 /* Build configuration list for PBXNativeTarget "Login_Extension" */;
 			buildPhases = (
-				5DC4AF9B5C6F313B501B2F454ACC604A /* Headers */,
-				44B2D2EE2E8FC5EB3043CFAF44094526 /* Sources */,
-				40E0E8AE1432B1E91BFC57789A055F03 /* Frameworks */,
-				7E2779593463727B5EE1751885489006 /* Resources */,
+				B212929290C421D536E570C6569973A2 /* Headers */,
+				D2F6C52E87C776E1D33886F13ECDA69A /* Sources */,
+				DE06E38025FDDA649C0268F2404F2793 /* Frameworks */,
+				957EF1B455461FA8FB956311194EF769 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				49A3F4F2EE385CA5830B15A7247C7724 /* PBXTargetDependency */,
 			);
-			name = native_wallet;
-			productName = native_wallet;
-			productReference = 421B794E610F62A8ADFF1B6114F48A3B /* native_wallet.framework */;
+			name = Login_Extension;
+			productName = Login_Extension;
+			productReference = 819FC7E63C0F4E241B45653D8B3771D0 /* Login_Extension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
@@ -564,81 +367,41 @@
 		};
 		6D5626CAB484E0B5D1D729067DD42C92 /* Pods-MainProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65253A7AA7563B5811171B4D382976A5 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */;
+			buildConfigurationList = 22BA9AB2F8FEB6CE6615DF21520E7E70 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */;
 			buildPhases = (
-				AADAF2D10C0CCE8A32E5399C812730E4 /* Headers */,
-				C612FCC2E155C367209E22254BF99705 /* Sources */,
-				2EBBC17EC2C6F363F80F655D3A656DA9 /* Frameworks */,
-				6B00E7775CE898EBE34A44EEF54BCEF3 /* Resources */,
+				2509FBA3EF2FF16068C24A64A84ED6CA /* Headers */,
+				F5493C46344A3805E9ECCCB522346728 /* Sources */,
+				18D3582C769606F45A92CA95CD60C7FB /* Frameworks */,
+				876360B6AEA92F25281F30AF741981C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DF1765A08FE01BD1EC7ABDB0E529752 /* PBXTargetDependency */,
-				918F419D7C7AA2FE613D918C8442B732 /* PBXTargetDependency */,
-				055A1B136C761C9A9D81414C9B8B0DCB /* PBXTargetDependency */,
-				97889F4BFA975FB853AB054A59CFFFD1 /* PBXTargetDependency */,
-				3DFC5E74889F8420F775A0F3CB1239DA /* PBXTargetDependency */,
+				3937DB2EEC618BD746132AF9134EEE9D /* PBXTargetDependency */,
+				06312E086C0BEC4A3E8BA2913720DE78 /* PBXTargetDependency */,
+				149118239C7F41E1C0E541E9B0DC981E /* PBXTargetDependency */,
 			);
 			name = "Pods-MainProject";
 			productName = "Pods-MainProject";
 			productReference = 2D025AD97C6590A9D617399C0C1F172D /* Pods_MainProject.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A85D31EA1584C56221BEEFDF804A5C07 /* HomePage_Extension */ = {
+		891BBD7E4D1F54F814E1415417E2BC3B /* Login */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E44603FFA4C8F1E8EC70B257A31925F /* Build configuration list for PBXNativeTarget "HomePage_Extension" */;
+			buildConfigurationList = 51A0E7D7124567DB55605AD397BEE6A9 /* Build configuration list for PBXNativeTarget "Login" */;
 			buildPhases = (
-				B8ED8E5DB8B843D4DF18977AB3BBC4F3 /* Headers */,
-				ED60F98843BA116DCFBB713F098D7F78 /* Sources */,
-				08A0008C7410509EAA5C44A68F4314A0 /* Frameworks */,
-				41F5DC1BBC0A1397BE8756205225343E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3C26F7D43D77781A070C07AD5B176B8F /* PBXTargetDependency */,
-			);
-			name = HomePage_Extension;
-			productName = HomePage_Extension;
-			productReference = 9E32F2C6E3EBB199AEEDEF8F835E756D /* HomePage_Extension.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AFCA61B85511CB6CA475E147FDDE1BC7 /* HomePage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 33449D343F61B59ABAF3E647D7FDA303 /* Build configuration list for PBXNativeTarget "HomePage" */;
-			buildPhases = (
-				E664AB7D6EF7E0743EB365EECCB8DF08 /* Headers */,
-				F36BD2508F715092AC7142F30DCF1429 /* Sources */,
-				6D763CFEE2461A2925EB810CB92BA645 /* Frameworks */,
-				70B12D94C3DC58CE8D677E3DE8A9B811 /* Resources */,
+				B3C7110C1E70E9558849A90523F3CCF7 /* Headers */,
+				8A41ADB67B2F3AE155E0B973DFB7FB6F /* Sources */,
+				B827757C0AE41ABD327033F6E04E44F0 /* Frameworks */,
+				F427EDAC291A2FBAAEAA755BD88B0B3A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HomePage;
-			productName = HomePage;
-			productReference = 01C1E8EEA86B8E292D05F08B77CCEC1D /* HomePage.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FAA50F667E5AF1FC703784348CF36889 /* native_wallet_extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C675B84677C7D135C8DE2719B8FDD2C8 /* Build configuration list for PBXNativeTarget "native_wallet_extension" */;
-			buildPhases = (
-				6A88C3BBA2C0A3F1DCD782C62FAC3CA8 /* Headers */,
-				9628981465A6318970B23717A4E21DB2 /* Sources */,
-				F2397D811A990826FD9099508C350233 /* Frameworks */,
-				E635EEC5AE72A6054581A869B4B8EF32 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				06F9A0CC34CA530BA561E5344636F987 /* PBXTargetDependency */,
-			);
-			name = native_wallet_extension;
-			productName = native_wallet_extension;
-			productReference = FC6B1CFE7295710577273775DFBA6B04 /* native_wallet_extension.framework */;
+			name = Login;
+			productName = Login;
+			productReference = F8519B8FDCB6CD208C8556AFA0304B79 /* Login.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -658,15 +421,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9277650D84D073BD16BF8B8861F40B26 /* Products */;
+			productRefGroup = 8EF7C25C50E32F6176B0A3E1E6E7DD93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
-				AFCA61B85511CB6CA475E147FDDE1BC7 /* HomePage */,
-				A85D31EA1584C56221BEEFDF804A5C07 /* HomePage_Extension */,
-				353FFFDC6DB3B94A95432D836D21365B /* native_wallet */,
-				FAA50F667E5AF1FC703784348CF36889 /* native_wallet_extension */,
+				891BBD7E4D1F54F814E1415417E2BC3B /* Login */,
+				16457CBB6771211DB10E21C2A3AAF08C /* Login_Extension */,
 				6D5626CAB484E0B5D1D729067DD42C92 /* Pods-MainProject */,
 			);
 		};
@@ -680,35 +441,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41F5DC1BBC0A1397BE8756205225343E /* Resources */ = {
+		876360B6AEA92F25281F30AF741981C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B00E7775CE898EBE34A44EEF54BCEF3 /* Resources */ = {
+		957EF1B455461FA8FB956311194EF769 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70B12D94C3DC58CE8D677E3DE8A9B811 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E2779593463727B5EE1751885489006 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E635EEC5AE72A6054581A869B4B8EF32 /* Resources */ = {
+		F427EDAC291A2FBAAEAA755BD88B0B3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -718,16 +465,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		44B2D2EE2E8FC5EB3043CFAF44094526 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8B4A98E3B7DF2DAFD89B932E6708BBA /* native_wallet-dummy.m in Sources */,
-				8EF3401D018DF0FC0AC81C5F0C77226F /* Target_native-wallet.swift in Sources */,
-				196127FFEF08CE6A7479C7F41DB37B16 /* ViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6743F40045C87906B0BE0456BFE8CEA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -737,93 +474,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9628981465A6318970B23717A4E21DB2 /* Sources */ = {
+		8A41ADB67B2F3AE155E0B973DFB7FB6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A459A4FD45FF14280B001801CB2A7CF /* native_wallet_extension-dummy.m in Sources */,
-				0526D4E3BEF3AA9A17DE54AA86631468 /* native_wallet_extension.swift in Sources */,
+				AAADC3CD309A117FE4EF20DBDB0F1929 /* Login-dummy.m in Sources */,
+				533856510B681721AF4D40075922FC70 /* LoginViewController.swift in Sources */,
+				B914F5ABE0FDE193E267F93895612A16 /* Target_Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C612FCC2E155C367209E22254BF99705 /* Sources */ = {
+		D2F6C52E87C776E1D33886F13ECDA69A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2601A33ECAE5F2E2A863F0A511292AF6 /* Pods-MainProject-dummy.m in Sources */,
+				45E3E7CA116059DEAC2880BD91CAE606 /* Login_Extension-dummy.m in Sources */,
+				091231AD9867CCB91DF286BD29BB8C07 /* Login_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED60F98843BA116DCFBB713F098D7F78 /* Sources */ = {
+		F5493C46344A3805E9ECCCB522346728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E10B5C63CE19583A678E0BB20CFDEB5 /* HomePage_Extension-dummy.m in Sources */,
-				BF53C42631D4618B09CF5FEDE6A35302 /* HomePage_Extension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F36BD2508F715092AC7142F30DCF1429 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				99508F5821599D043109A0CBC5867436 /* HomePage-dummy.m in Sources */,
-				CD1C30684C3A04E8EA3A36460591B73B /* Target_homepage.swift in Sources */,
-				19AFA9FCF90D2E400447172ACB034461 /* ViewController.swift in Sources */,
+				0B4D789DC760EF6D6384ACC35CC3526E /* Pods-MainProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		055A1B136C761C9A9D81414C9B8B0DCB /* PBXTargetDependency */ = {
+		06312E086C0BEC4A3E8BA2913720DE78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HomePage_Extension;
-			target = A85D31EA1584C56221BEEFDF804A5C07 /* HomePage_Extension */;
-			targetProxy = BC2CA44D958B7063F34B20B5AB355E4D /* PBXContainerItemProxy */;
+			name = Login;
+			target = 891BBD7E4D1F54F814E1415417E2BC3B /* Login */;
+			targetProxy = 6318A0F73FEDDEB54A797FFC7F05ADA8 /* PBXContainerItemProxy */;
 		};
-		06F9A0CC34CA530BA561E5344636F987 /* PBXTargetDependency */ = {
+		149118239C7F41E1C0E541E9B0DC981E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Login_Extension;
+			target = 16457CBB6771211DB10E21C2A3AAF08C /* Login_Extension */;
+			targetProxy = 7FB6AC972DEC7EB44FF277AD4AC66C57 /* PBXContainerItemProxy */;
+		};
+		3937DB2EEC618BD746132AF9134EEE9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CTMediator;
 			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = B227CA543FB7892C60BA26B0B8605987 /* PBXContainerItemProxy */;
+			targetProxy = 6D432CA237D0A9249E9AB7B73BB90073 /* PBXContainerItemProxy */;
 		};
-		3C26F7D43D77781A070C07AD5B176B8F /* PBXTargetDependency */ = {
+		49A3F4F2EE385CA5830B15A7247C7724 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CTMediator;
 			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 294D88578F23A6F2594D077EF88E3147 /* PBXContainerItemProxy */;
-		};
-		3DFC5E74889F8420F775A0F3CB1239DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = native_wallet_extension;
-			target = FAA50F667E5AF1FC703784348CF36889 /* native_wallet_extension */;
-			targetProxy = E47B2B4C2AE6DE3BB8998CE9E5529823 /* PBXContainerItemProxy */;
-		};
-		5DF1765A08FE01BD1EC7ABDB0E529752 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 8F533D680BC1E4A9E283B907DF501688 /* PBXContainerItemProxy */;
-		};
-		918F419D7C7AA2FE613D918C8442B732 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HomePage;
-			target = AFCA61B85511CB6CA475E147FDDE1BC7 /* HomePage */;
-			targetProxy = D0D2DE1F4CCDE9A88A9C8404A14C2098 /* PBXContainerItemProxy */;
-		};
-		97889F4BFA975FB853AB054A59CFFFD1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = native_wallet;
-			target = 353FFFDC6DB3B94A95432D836D21365B /* native_wallet */;
-			targetProxy = E027A7D552F15262A2178497CB6EB7EC /* PBXContainerItemProxy */;
+			targetProxy = AFFC16BC01D626876137FBE160EF1A06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1F73A7CF8C7650744ADB7AED524B9F87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */;
+			baseConfigurationReference = 8A38866A97478F24DFDB3E59FB9D9ECE /* CTMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -846,42 +556,6 @@
 				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
 				PRODUCT_MODULE_NAME = CTMediator;
 				PRODUCT_NAME = CTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1F96F6C8D7C402FC8CF27C524CE4E371 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EB618B2BCC9E790C4095DFFEFC2FD43 /* native_wallet_extension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/native_wallet_extension/native_wallet_extension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/native_wallet_extension/native_wallet_extension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/native_wallet_extension/native_wallet_extension.modulemap";
-				PRODUCT_MODULE_NAME = native_wallet_extension;
-				PRODUCT_NAME = native_wallet_extension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -957,42 +631,6 @@
 			};
 			name = Debug;
 		};
-		3595B3C8DA607A44C6C3C08C83FFCA3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBA003F62F3506A44CA2D92085683ADD /* HomePage_Extension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HomePage_Extension/HomePage_Extension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HomePage_Extension/HomePage_Extension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/HomePage_Extension/HomePage_Extension.modulemap";
-				PRODUCT_MODULE_NAME = HomePage_Extension;
-				PRODUCT_NAME = HomePage_Extension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1053,9 +691,9 @@
 			};
 			name = Release;
 		};
-		3F29A67A7EE18B49D74D7BDA226D8C07 /* Release */ = {
+		3E7C2075E08C335531DEF63B50E6F676 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07783BD69EDED6FA6D426DC175925CC4 /* HomePage.xcconfig */;
+			baseConfigurationReference = 23326CE0F260FF640EF0AFF6B9B2E948 /* Login_Extension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1066,18 +704,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HomePage/HomePage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HomePage/HomePage-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Login_Extension/Login_Extension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Login_Extension/Login_Extension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/HomePage/HomePage.modulemap";
-				PRODUCT_MODULE_NAME = HomePage;
-				PRODUCT_NAME = HomePage;
+				MODULEMAP_FILE = "Target Support Files/Login_Extension/Login_Extension.modulemap";
+				PRODUCT_MODULE_NAME = Login_Extension;
+				PRODUCT_NAME = Login_Extension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1089,9 +727,9 @@
 			};
 			name = Release;
 		};
-		66F4FD4AAD28FF10A401FF4E0E0CC436 /* Debug */ = {
+		921372625C3A266701498CAD36EC687E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EB618B2BCC9E790C4095DFFEFC2FD43 /* native_wallet_extension.xcconfig */;
+			baseConfigurationReference = B9FCB2420976D906D644B2915A4A009B /* Login.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1102,18 +740,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/native_wallet_extension/native_wallet_extension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/native_wallet_extension/native_wallet_extension-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Login/Login-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Login/Login-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/native_wallet_extension/native_wallet_extension.modulemap";
-				PRODUCT_MODULE_NAME = native_wallet_extension;
-				PRODUCT_NAME = native_wallet_extension;
+				MODULEMAP_FILE = "Target Support Files/Login/Login.modulemap";
+				PRODUCT_MODULE_NAME = Login;
+				PRODUCT_NAME = Login;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1124,7 +762,77 @@
 			};
 			name = Debug;
 		};
-		A03FC2A3A1584A98FC7DE8EB0962FE03 /* Release */ = {
+		A617BD67FF0669DBCFAA24DC18016AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A38866A97478F24DFDB3E59FB9D9ECE /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0FDE6B005F1053F0D2F6DCFD3C53B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23326CE0F260FF640EF0AFF6B9B2E948 /* Login_Extension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Login_Extension/Login_Extension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Login_Extension/Login_Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Login_Extension/Login_Extension.modulemap";
+				PRODUCT_MODULE_NAME = Login_Extension;
+				PRODUCT_NAME = Login_Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDA02AE067BE799E357631074304F0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3804950B7816E4F356395ECB0FA39CBA /* Pods-MainProject.release.xcconfig */;
 			buildSettings = {
@@ -1163,9 +871,9 @@
 			};
 			name = Release;
 		};
-		A617BD67FF0669DBCFAA24DC18016AB8 /* Debug */ = {
+		D797C89D5B8DDBC72727505F6EA88CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */;
+			baseConfigurationReference = B9FCB2420976D906D644B2915A4A009B /* Login.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1176,53 +884,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Login/Login-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Login/Login-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
-				PRODUCT_MODULE_NAME = CTMediator;
-				PRODUCT_NAME = CTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A8B7A5868AEA1A55321C410B12063BE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E9C41B1F688006A005B0B970FFA33C /* native_wallet.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/native_wallet/native_wallet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/native_wallet/native_wallet-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/native_wallet/native_wallet.modulemap";
-				PRODUCT_MODULE_NAME = native_wallet;
-				PRODUCT_NAME = native_wallet;
+				MODULEMAP_FILE = "Target Support Files/Login/Login.modulemap";
+				PRODUCT_MODULE_NAME = Login;
+				PRODUCT_NAME = Login;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1234,112 +907,7 @@
 			};
 			name = Release;
 		};
-		B4A059F64AB313EA94B8FBAE78845D48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07783BD69EDED6FA6D426DC175925CC4 /* HomePage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HomePage/HomePage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HomePage/HomePage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/HomePage/HomePage.modulemap";
-				PRODUCT_MODULE_NAME = HomePage;
-				PRODUCT_NAME = HomePage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D31F147FB88D273A933C7940F7C71C24 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBA003F62F3506A44CA2D92085683ADD /* HomePage_Extension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HomePage_Extension/HomePage_Extension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HomePage_Extension/HomePage_Extension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/HomePage_Extension/HomePage_Extension.modulemap";
-				PRODUCT_MODULE_NAME = HomePage_Extension;
-				PRODUCT_NAME = HomePage_Extension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EA03B9E192FFA1F1D3A6BCB19EC96C3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E9C41B1F688006A005B0B970FFA33C /* native_wallet.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/native_wallet/native_wallet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/native_wallet/native_wallet-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/native_wallet/native_wallet.modulemap";
-				PRODUCT_MODULE_NAME = native_wallet;
-				PRODUCT_NAME = native_wallet;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FE320318250F4CDA103ACA5AC331B719 /* Debug */ = {
+		FB7D2D92089ACD9B81E50976114A11AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEFDAAADFB97861B33BE3BB603512BD4 /* Pods-MainProject.debug.xcconfig */;
 			buildSettings = {
@@ -1380,20 +948,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E44603FFA4C8F1E8EC70B257A31925F /* Build configuration list for PBXNativeTarget "HomePage_Extension" */ = {
+		22BA9AB2F8FEB6CE6615DF21520E7E70 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D31F147FB88D273A933C7940F7C71C24 /* Debug */,
-				3595B3C8DA607A44C6C3C08C83FFCA3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		33449D343F61B59ABAF3E647D7FDA303 /* Build configuration list for PBXNativeTarget "HomePage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4A059F64AB313EA94B8FBAE78845D48 /* Debug */,
-				3F29A67A7EE18B49D74D7BDA226D8C07 /* Release */,
+				FB7D2D92089ACD9B81E50976114A11AF /* Debug */,
+				BDA02AE067BE799E357631074304F0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1416,29 +975,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DE5F7EFB6815240773C20935E395E28 /* Build configuration list for PBXNativeTarget "native_wallet" */ = {
+		51A0E7D7124567DB55605AD397BEE6A9 /* Build configuration list for PBXNativeTarget "Login" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA03B9E192FFA1F1D3A6BCB19EC96C3C /* Debug */,
-				A8B7A5868AEA1A55321C410B12063BE3 /* Release */,
+				921372625C3A266701498CAD36EC687E /* Debug */,
+				D797C89D5B8DDBC72727505F6EA88CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65253A7AA7563B5811171B4D382976A5 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */ = {
+		5A35B6805B815FFB70854AEB80B85B47 /* Build configuration list for PBXNativeTarget "Login_Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE320318250F4CDA103ACA5AC331B719 /* Debug */,
-				A03FC2A3A1584A98FC7DE8EB0962FE03 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C675B84677C7D135C8DE2719B8FDD2C8 /* Build configuration list for PBXNativeTarget "native_wallet_extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66F4FD4AAD28FF10A401FF4E0E0CC436 /* Debug */,
-				1F96F6C8D7C402FC8CF27C524CE4E371 /* Release */,
+				B0FDE6B005F1053F0D2F6DCFD3C53B38 /* Debug */,
+				3E7C2075E08C335531DEF63B50E6F676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

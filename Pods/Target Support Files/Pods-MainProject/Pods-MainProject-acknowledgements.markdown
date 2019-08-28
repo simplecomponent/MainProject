@@ -6,22 +6,12 @@ This application makes use of the following third party libraries:
 MIT
 
 
-## HomePage
+## Login
 
 MIT
 
 
-## HomePage_Extension
-
-MIT
-
-
-## native_wallet
-
-MIT
-
-
-## native_wallet_extension
+## Login_Extension
 
 MIT
 

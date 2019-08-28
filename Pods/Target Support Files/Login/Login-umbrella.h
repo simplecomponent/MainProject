@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double native_wallet_extensionVersionNumber;
-FOUNDATION_EXPORT const unsigned char native_wallet_extensionVersionString[];
+FOUNDATION_EXPORT double LoginVersionNumber;
+FOUNDATION_EXPORT const unsigned char LoginVersionString[];
 

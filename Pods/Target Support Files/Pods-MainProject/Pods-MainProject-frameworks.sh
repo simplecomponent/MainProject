@@ -162,17 +162,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HomePage/HomePage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HomePage_Extension/HomePage_Extension.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/native_wallet/native_wallet.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/native_wallet_extension/native_wallet_extension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Login/Login.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Login_Extension/Login_Extension.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HomePage/HomePage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HomePage_Extension/HomePage_Extension.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/native_wallet/native_wallet.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/native_wallet_extension/native_wallet_extension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Login/Login.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Login_Extension/Login_Extension.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

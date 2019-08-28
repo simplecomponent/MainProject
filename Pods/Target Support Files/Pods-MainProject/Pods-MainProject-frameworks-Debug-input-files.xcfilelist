@@ -1,6 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
-${BUILT_PRODUCTS_DIR}/HomePage/HomePage.framework
-${BUILT_PRODUCTS_DIR}/HomePage_Extension/HomePage_Extension.framework
-${BUILT_PRODUCTS_DIR}/native_wallet/native_wallet.framework
-${BUILT_PRODUCTS_DIR}/native_wallet_extension/native_wallet_extension.framework
+${BUILT_PRODUCTS_DIR}/Login/Login.framework
+${BUILT_PRODUCTS_DIR}/Login_Extension/Login_Extension.framework

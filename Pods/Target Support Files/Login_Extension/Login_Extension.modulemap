@@ -1,0 +1,6 @@
+framework module Login_Extension {
+  umbrella header "Login_Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

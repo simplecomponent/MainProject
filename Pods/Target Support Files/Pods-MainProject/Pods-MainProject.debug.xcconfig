@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/HomePage" "${PODS_CONFIGURATION_BUILD_DIR}/HomePage_Extension" "${PODS_CONFIGURATION_BUILD_DIR}/native_wallet" "${PODS_CONFIGURATION_BUILD_DIR}/native_wallet_extension"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/Login" "${PODS_CONFIGURATION_BUILD_DIR}/Login_Extension"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HomePage/HomePage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HomePage_Extension/HomePage_Extension.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/native_wallet/native_wallet.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/native_wallet_extension/native_wallet_extension.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Login/Login.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Login_Extension/Login_Extension.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "CTMediator" -framework "HomePage" -framework "HomePage_Extension" -framework "UIKit" -framework "native_wallet" -framework "native_wallet_extension"
+OTHER_LDFLAGS = $(inherited) -framework "CTMediator" -framework "Login" -framework "Login_Extension" -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

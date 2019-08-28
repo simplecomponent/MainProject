@@ -1,6 +1,0 @@
-framework module HomePage_Extension {
-  umbrella header "HomePage_Extension-umbrella.h"
-
-  export *
-  module * { export * }
-}

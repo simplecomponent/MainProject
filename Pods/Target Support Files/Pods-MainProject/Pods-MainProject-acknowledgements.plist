@@ -30,7 +30,7 @@
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>HomePage</string>
+			<string>Login</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
@@ -41,29 +41,7 @@
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>HomePage_Extension</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>native_wallet</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>native_wallet_extension</string>
+			<string>Login_Extension</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
