@@ -23,9 +23,8 @@ class ViewController: UIViewController {
     
     //MARK: events
     @objc func buttonOnClick(){
-        let param:[AnyHashable:Any] = ["text":"本地调用"]
+//        let param:[AnyHashable:Any] = ["text":"本地调用"]
         if let controller = CTMediator.sharedInstance()?.getLoginModule({ (result) in
-            
             
         }){
             navigationController?.pushViewController(controller, animated: true)
