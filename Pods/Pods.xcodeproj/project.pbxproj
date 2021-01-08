@@ -7,107 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		091231AD9867CCB91DF286BD29BB8C07 /* Login_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B071DC0F144C0B96BAC30A4B17AD1B5 /* Login_Extension.swift */; };
-		0B4D789DC760EF6D6384ACC35CC3526E /* Pods-MainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62599745B1D8D8CCFD037E66D458B6 /* Pods-MainProject-dummy.m */; };
-		0F7FEB9233A59556CE3CBD18D38EED4A /* Pods-MainProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F3860AAF18B129EC47EE94F5F14113 /* Pods-MainProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34C244BE825F7606282C7B68E7EE4B2E /* Login_Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F88EAFB774CC7F06D96C8132737D71 /* Login_Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		357F3EA1D6E568F4EE52441BF6C00E09 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
-		3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		3C6ED903379125D469E6C128CB5AD8E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		45E3E7CA116059DEAC2880BD91CAE606 /* Login_Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AF51CA6F2FDBD0B55B9CDFA62D7D9C /* Login_Extension-dummy.m */; };
-		533856510B681721AF4D40075922FC70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE9583674F6AD2D9D4104CB84260F4 /* LoginViewController.swift */; };
-		685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */; };
-		7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E56DCB150AB2C551A9E721C6427696 /* CTMediator.m */; };
-		AAADC3CD309A117FE4EF20DBDB0F1929 /* Login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A32F31C132C99954872A116BCF389 /* Login-dummy.m */; };
-		B914F5ABE0FDE193E267F93895612A16 /* Target_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069C8B9E1069D5158257F0142E55FE2A /* Target_Login.swift */; };
-		BAC4CAA1EBA59ECAFD000566AA8D3B8F /* Login-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F063F269B30589CB772F017118D35CB /* Login-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9408E91E3F44A311997E57F846D2CCA /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE9EDE9FE2F15FFE40DAAF96C7C9C96 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6B889889ED912932AB86B9CD802DDDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC25759ADD59C9142BE7730869E0A983 /* CTMediator-dummy.m */; };
-		EEBD1A4B270048BD1B9732B60F16F580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
+		198BBA580D8DE74AA70150F32EE0D527 /* Login_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC448CA794A3F2FB80D9C2EC4442879 /* Login_Extension.swift */; };
+		25F961B19D6A13CBC2D8E9060FF808EA /* Login_Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A12DEF9E9BDB518A2AE43D1AF3E357 /* Login_Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4409BE1A5773F28066B53CE9F51F4724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90242F2A897EDD362E85839DE120A3E2 /* Foundation.framework */; };
+		533856510B681721AF4D40075922FC70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38FA5552961C527A7C030001BC124B /* LoginViewController.swift */; };
+		5457E08AEC06C50A1880D92A7936A2F3 /* Pods-MainProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F3860AAF18B129EC47EE94F5F14113 /* Pods-MainProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C1CAAE6DEA861DCA59F8311AB3CE7F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6808E44EB55D107CD9D424ABBEBA71F /* UIKit.framework */; };
+		5D5190EE39F7AB810BB3460009620B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90242F2A897EDD362E85839DE120A3E2 /* Foundation.framework */; };
+		615446FF86D2352FB470A59995624614 /* Login_Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27C82508F9C7EFCC06969B19E10C28 /* Login_Extension-dummy.m */; };
+		7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4870AE301B3752E28585CF99EF058BA /* CTMediator.m */; };
+		7E1A83EF172AE9C8CE5C173F6001566A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90242F2A897EDD362E85839DE120A3E2 /* Foundation.framework */; };
+		AAADC3CD309A117FE4EF20DBDB0F1929 /* Login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CD875968B03AF527C2E19BB74CAADB /* Login-dummy.m */; };
+		B914F5ABE0FDE193E267F93895612A16 /* Target_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150A44D1CB163859C35600AF1ED14DD3 /* Target_Login.swift */; };
+		BAC4CAA1EBA59ECAFD000566AA8D3B8F /* Login-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD40C0B2C8B1DA84A73786E8F138F56 /* Login-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCEAC7A821D8A67663DD1411C06D40E1 /* Pods-MainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62599745B1D8D8CCFD037E66D458B6 /* Pods-MainProject-dummy.m */; };
+		C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEC085D5FAEED230B847375EEAF409C /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 82392F6BB83313D93F0F911E7E17B871 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF6E18D201F969867A3B112B45DA893C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90242F2A897EDD362E85839DE120A3E2 /* Foundation.framework */; };
+		E0F1C04FDA5B2767BB438AD7B014BA85 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
+		E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F4761A61D0038B1D90AB96292243C6 /* CTMediator-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6318A0F73FEDDEB54A797FFC7F05ADA8 /* PBXContainerItemProxy */ = {
+		D1E645787740749D249E1637D6F3ABB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		E6C23259C5C9C890CE0CD786D03FC105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		EB6E5B609C5FB0B17C2D735E1EEA28E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 891BBD7E4D1F54F814E1415417E2BC3B;
 			remoteInfo = Login;
 		};
-		6D432CA237D0A9249E9AB7B73BB90073 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		7FB6AC972DEC7EB44FF277AD4AC66C57 /* PBXContainerItemProxy */ = {
+		FDF00D28ADAADE2A4A631AAF19F2B848 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 16457CBB6771211DB10E21C2A3AAF08C;
 			remoteInfo = Login_Extension;
 		};
-		AFFC16BC01D626876137FBE160EF1A06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		069C8B9E1069D5158257F0142E55FE2A /* Target_Login.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_Login.swift; path = Login/Login/Target_Login.swift; sourceTree = "<group>"; };
 		070FCFAE13FA180851839D655E1B60DE /* Pods-MainProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		0DE9EDE9FE2F15FFE40DAAF96C7C9C96 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
-		0E26FB0BAD54C28769C80296816E3E2D /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
-		217D368BCF4642ACBC0EDFE2066316E8 /* Login-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login-prefix.pch"; sourceTree = "<group>"; };
-		23326CE0F260FF640EF0AFF6B9B2E948 /* Login_Extension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Login_Extension.xcconfig; sourceTree = "<group>"; };
+		10CD875968B03AF527C2E19BB74CAADB /* Login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Login-dummy.m"; sourceTree = "<group>"; };
+		150A44D1CB163859C35600AF1ED14DD3 /* Target_Login.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_Login.swift; path = Login/Login/Target_Login.swift; sourceTree = "<group>"; };
 		2D025AD97C6590A9D617399C0C1F172D /* Pods_MainProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MainProject.framework; path = "Pods-MainProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DD40C0B2C8B1DA84A73786E8F138F56 /* Login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login-umbrella.h"; sourceTree = "<group>"; };
 		3804950B7816E4F356395ECB0FA39CBA /* Pods-MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.release.xcconfig"; sourceTree = "<group>"; };
-		3A0AB929ECC7EC19F7CDEB04E675D74F /* Login_Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Login_Extension.modulemap; sourceTree = "<group>"; };
-		3B071DC0F144C0B96BAC30A4B17AD1B5 /* Login_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Login_Extension.swift; path = Login_Extension/Login_Extension/Login_Extension.swift; sourceTree = "<group>"; };
-		475A32F31C132C99954872A116BCF389 /* Login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Login-dummy.m"; sourceTree = "<group>"; };
+		51F4761A61D0038B1D90AB96292243C6 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		58F0F5BBE9CA2A908FAE0045766B888E /* Pods-MainProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		602FED63F1BFA634C60B98DF2F15AED4 /* Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Login.release.xcconfig; sourceTree = "<group>"; };
+		617D9D81938995030E774CEFDE2AA474 /* Login_Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Login_Extension.modulemap; sourceTree = "<group>"; };
+		689F2A2B6E975E98B5DCF898BCA78C19 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F063F269B30589CB772F017118D35CB /* Login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login-umbrella.h"; sourceTree = "<group>"; };
+		6ED20FE323DEBA14DDCB3F9B6D3AE9D8 /* Login_Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Login_Extension.release.xcconfig; sourceTree = "<group>"; };
+		7BA167E289741CC1254DC79B3A8C3450 /* Login.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Login.modulemap; sourceTree = "<group>"; };
 		7F825ECE3759C95DAEBF0C0B4587DA92 /* Pods-MainProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MainProject.modulemap"; sourceTree = "<group>"; };
 		7FE866BDA50DBF1E474253E8420B8D05 /* Pods-MainProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainProject-frameworks.sh"; sourceTree = "<group>"; };
 		819FC7E63C0F4E241B45653D8B3771D0 /* Login_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Login_Extension.framework; path = Login_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A38866A97478F24DFDB3E59FB9D9ECE /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		82392F6BB83313D93F0F911E7E17B871 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		82A586CADD31DB4CB575E2DEC2BD28FF /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
+		8DEC085D5FAEED230B847375EEAF409C /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		90242F2A897EDD362E85839DE120A3E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		905661D1C86D79154578424CAC190E1B /* Login-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Login-Info.plist"; sourceTree = "<group>"; };
+		93A12DEF9E9BDB518A2AE43D1AF3E357 /* Login_Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login_Extension-umbrella.h"; sourceTree = "<group>"; };
+		94D5CC4BBF36F588D59026A10BD339C5 /* Login_Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Login_Extension-Info.plist"; sourceTree = "<group>"; };
+		9B38FA5552961C527A7C030001BC124B /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Login/Login/LoginViewController.swift; sourceTree = "<group>"; };
+		9D3AD6474F20795A2E3D4A9E3EB2A4A3 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD39810CB05DDCA7F4DD0B439131F59 /* Pods-MainProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-Info.plist"; sourceTree = "<group>"; };
-		A05647B3F57BA5BEA54B91622FCCECA2 /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
-		A7AE3C66AC0ABED2F44A5E77228D43AA /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		A0ADCFBCD01F04273C31DF96B90C7F92 /* Login_Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Login_Extension.debug.xcconfig; sourceTree = "<group>"; };
+		A6808E44EB55D107CD9D424ABBEBA71F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A8F3860AAF18B129EC47EE94F5F14113 /* Pods-MainProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MainProject-umbrella.h"; sourceTree = "<group>"; };
-		B002B408AC89F2D37141E14B7509EA65 /* Login.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Login.modulemap; sourceTree = "<group>"; };
-		B61F2967B073045D0B21A67D9637FBB3 /* Login-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Login-Info.plist"; sourceTree = "<group>"; };
+		B4870AE301B3752E28585CF99EF058BA /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9AF51CA6F2FDBD0B55B9CDFA62D7D9C /* Login_Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Login_Extension-dummy.m"; sourceTree = "<group>"; };
-		B9F88EAFB774CC7F06D96C8132737D71 /* Login_Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login_Extension-umbrella.h"; sourceTree = "<group>"; };
-		B9FCB2420976D906D644B2915A4A009B /* Login.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Login.xcconfig; sourceTree = "<group>"; };
-		C8E56DCB150AB2C551A9E721C6427696 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
-		CC25759ADD59C9142BE7730869E0A983 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		BA27C82508F9C7EFCC06969B19E10C28 /* Login_Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Login_Extension-dummy.m"; sourceTree = "<group>"; };
+		C8C1ECC3A9BFF939F024C95A0233A52E /* Login_Extension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login_Extension-prefix.pch"; sourceTree = "<group>"; };
 		CC62599745B1D8D8CCFD037E66D458B6 /* Pods-MainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainProject-dummy.m"; sourceTree = "<group>"; };
+		CD709819C0BB788B5F0CAECFACB3312C /* Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Login.debug.xcconfig; sourceTree = "<group>"; };
 		CEFDAAADFB97861B33BE3BB603512BD4 /* Pods-MainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.debug.xcconfig"; sourceTree = "<group>"; };
-		D3BE9583674F6AD2D9D4104CB84260F4 /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Login/Login/LoginViewController.swift; sourceTree = "<group>"; };
-		E1E85615170CEA70D9D863BE10D1D2C3 /* Login_Extension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login_Extension-prefix.pch"; sourceTree = "<group>"; };
-		E9408E91E3F44A311997E57F846D2CCA /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
-		EBDBFCB579FAB96255C0FC92A24EF09B /* Login_Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Login_Extension-Info.plist"; sourceTree = "<group>"; };
+		DAC448CA794A3F2FB80D9C2EC4442879 /* Login_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Login_Extension.swift; path = Login_Extension/Login_Extension/Login_Extension.swift; sourceTree = "<group>"; };
+		E98711F270ECE9679B6787B79AE83690 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		EC5E4F606D3D82C5A093418FECA11B12 /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		F327292AE9B8F9C5D32A84D6958B7398 /* Login-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login-prefix.pch"; sourceTree = "<group>"; };
 		F8519B8FDCB6CD208C8556AFA0304B79 /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Login.framework; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18D3582C769606F45A92CA95CD60C7FB /* Frameworks */ = {
+		0D1DF0E595F9BD75C68B038C0A649671 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEBD1A4B270048BD1B9732B60F16F580 /* Foundation.framework in Frameworks */,
+				E0F1C04FDA5B2767BB438AD7B014BA85 /* CTMediator.framework in Frameworks */,
+				DF6E18D201F969867A3B112B45DA893C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73125F4ADD682C449F76BE677483D923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5190EE39F7AB810BB3460009620B45 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,16 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B889889ED912932AB86B9CD802DDDB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE06E38025FDDA649C0268F2404F2793 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				357F3EA1D6E568F4EE52441BF6C00E09 /* CTMediator.framework in Frameworks */,
-				3C6ED903379125D469E6C128CB5AD8E8 /* Foundation.framework in Frameworks */,
+				7E1A83EF172AE9C8CE5C173F6001566A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,30 +135,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */,
-				685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */,
+				4409BE1A5773F28066B53CE9F51F4724 /* Foundation.framework in Frameworks */,
+				5C1CAAE6DEA861DCA59F8311AB3CE7F6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16E32F6B85408A648460779981B91A46 /* Login_Extension */ = {
+		0262FE8102F9AB1F19010849C1AE4676 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B071DC0F144C0B96BAC30A4B17AD1B5 /* Login_Extension.swift */,
-				E6963F60B95A0812055D20F9A242A0AF /* Support Files */,
+				7BA167E289741CC1254DC79B3A8C3450 /* Login.modulemap */,
+				10CD875968B03AF527C2E19BB74CAADB /* Login-dummy.m */,
+				905661D1C86D79154578424CAC190E1B /* Login-Info.plist */,
+				F327292AE9B8F9C5D32A84D6958B7398 /* Login-prefix.pch */,
+				2DD40C0B2C8B1DA84A73786E8F138F56 /* Login-umbrella.h */,
+				CD709819C0BB788B5F0CAECFACB3312C /* Login.debug.xcconfig */,
+				602FED63F1BFA634C60B98DF2F15AED4 /* Login.release.xcconfig */,
 			);
-			name = Login_Extension;
-			path = Login_Extension;
+			name = "Support Files";
+			path = "../Target Support Files/Login";
+			sourceTree = "<group>";
+		};
+		0802B1B40D92EEA2C16CE7EB1B16A4E9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9B38FA5552961C527A7C030001BC124B /* LoginViewController.swift */,
+				150A44D1CB163859C35600AF1ED14DD3 /* Target_Login.swift */,
+				0262FE8102F9AB1F19010849C1AE4676 /* Support Files */,
+			);
+			name = Login;
+			path = Login;
 			sourceTree = "<group>";
 		};
 		1E2376CF0DE2AF47D19B17C3D8B4C90B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53C6AF50ED9DEB73FB90A68879BC8D49 /* CTMediator */,
-				7497D0B31B653E52F203CE1B949AA258 /* Login */,
-				16E32F6B85408A648460779981B91A46 /* Login_Extension */,
+				69CFFD4FF6D1159B4E7579D7018E4184 /* CTMediator */,
+				0802B1B40D92EEA2C16CE7EB1B16A4E9 /* Login */,
+				D067AFFC3F10A879A66274D67201A4CA /* Login_Extension */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -177,49 +196,15 @@
 			path = "Target Support Files/Pods-MainProject";
 			sourceTree = "<group>";
 		};
-		4BD002FB4B633CBBF7421E7F7D4538EA /* iOS */ = {
+		69CFFD4FF6D1159B4E7579D7018E4184 /* CTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */,
-				3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		53C6AF50ED9DEB73FB90A68879BC8D49 /* CTMediator */ = {
-			isa = PBXGroup;
-			children = (
-				0DE9EDE9FE2F15FFE40DAAF96C7C9C96 /* CTMediator.h */,
-				C8E56DCB150AB2C551A9E721C6427696 /* CTMediator.m */,
-				DC2FC4058B604E64C4C115BE5D99451F /* Support Files */,
+				82392F6BB83313D93F0F911E7E17B871 /* CTMediator.h */,
+				B4870AE301B3752E28585CF99EF058BA /* CTMediator.m */,
+				C19A0E1C8A7416239BEE222E57D13993 /* Support Files */,
 			);
 			name = CTMediator;
 			path = CTMediator;
-			sourceTree = "<group>";
-		};
-		7497D0B31B653E52F203CE1B949AA258 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				D3BE9583674F6AD2D9D4104CB84260F4 /* LoginViewController.swift */,
-				069C8B9E1069D5158257F0142E55FE2A /* Target_Login.swift */,
-				8C7A0492BE437804BDDE165A2317933C /* Support Files */,
-			);
-			name = Login;
-			path = Login;
-			sourceTree = "<group>";
-		};
-		8C7A0492BE437804BDDE165A2317933C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B002B408AC89F2D37141E14B7509EA65 /* Login.modulemap */,
-				B9FCB2420976D906D644B2915A4A009B /* Login.xcconfig */,
-				475A32F31C132C99954872A116BCF389 /* Login-dummy.m */,
-				B61F2967B073045D0B21A67D9637FBB3 /* Login-Info.plist */,
-				217D368BCF4642ACBC0EDFE2066316E8 /* Login-prefix.pch */,
-				6F063F269B30589CB772F017118D35CB /* Login-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Login";
 			sourceTree = "<group>";
 		};
 		8EF7C25C50E32F6176B0A3E1E6E7DD93 /* Products */ = {
@@ -237,7 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */,
-				4BD002FB4B633CBBF7421E7F7D4538EA /* iOS */,
+				C276309C372C5803516BF514277B0EFF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -248,6 +233,30 @@
 				2AE273B70CED94AF07D24BCA3DA1742B /* Pods-MainProject */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C19A0E1C8A7416239BEE222E57D13993 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E98711F270ECE9679B6787B79AE83690 /* CTMediator.modulemap */,
+				51F4761A61D0038B1D90AB96292243C6 /* CTMediator-dummy.m */,
+				EC5E4F606D3D82C5A093418FECA11B12 /* CTMediator-Info.plist */,
+				689F2A2B6E975E98B5DCF898BCA78C19 /* CTMediator-prefix.pch */,
+				8DEC085D5FAEED230B847375EEAF409C /* CTMediator-umbrella.h */,
+				9D3AD6474F20795A2E3D4A9E3EB2A4A3 /* CTMediator.debug.xcconfig */,
+				82A586CADD31DB4CB575E2DEC2BD28FF /* CTMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		C276309C372C5803516BF514277B0EFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90242F2A897EDD362E85839DE120A3E2 /* Foundation.framework */,
+				A6808E44EB55D107CD9D424ABBEBA71F /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -261,29 +270,26 @@
 			);
 			sourceTree = "<group>";
 		};
-		DC2FC4058B604E64C4C115BE5D99451F /* Support Files */ = {
+		D067AFFC3F10A879A66274D67201A4CA /* Login_Extension */ = {
 			isa = PBXGroup;
 			children = (
-				A7AE3C66AC0ABED2F44A5E77228D43AA /* CTMediator.modulemap */,
-				8A38866A97478F24DFDB3E59FB9D9ECE /* CTMediator.xcconfig */,
-				CC25759ADD59C9142BE7730869E0A983 /* CTMediator-dummy.m */,
-				A05647B3F57BA5BEA54B91622FCCECA2 /* CTMediator-Info.plist */,
-				0E26FB0BAD54C28769C80296816E3E2D /* CTMediator-prefix.pch */,
-				E9408E91E3F44A311997E57F846D2CCA /* CTMediator-umbrella.h */,
+				DAC448CA794A3F2FB80D9C2EC4442879 /* Login_Extension.swift */,
+				D7AE971F60F02C9BD4AD61902DB734FA /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CTMediator";
+			name = Login_Extension;
+			path = Login_Extension;
 			sourceTree = "<group>";
 		};
-		E6963F60B95A0812055D20F9A242A0AF /* Support Files */ = {
+		D7AE971F60F02C9BD4AD61902DB734FA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A0AB929ECC7EC19F7CDEB04E675D74F /* Login_Extension.modulemap */,
-				23326CE0F260FF640EF0AFF6B9B2E948 /* Login_Extension.xcconfig */,
-				B9AF51CA6F2FDBD0B55B9CDFA62D7D9C /* Login_Extension-dummy.m */,
-				EBDBFCB579FAB96255C0FC92A24EF09B /* Login_Extension-Info.plist */,
-				E1E85615170CEA70D9D863BE10D1D2C3 /* Login_Extension-prefix.pch */,
-				B9F88EAFB774CC7F06D96C8132737D71 /* Login_Extension-umbrella.h */,
+				617D9D81938995030E774CEFDE2AA474 /* Login_Extension.modulemap */,
+				BA27C82508F9C7EFCC06969B19E10C28 /* Login_Extension-dummy.m */,
+				94D5CC4BBF36F588D59026A10BD339C5 /* Login_Extension-Info.plist */,
+				C8C1ECC3A9BFF939F024C95A0233A52E /* Login_Extension-prefix.pch */,
+				93A12DEF9E9BDB518A2AE43D1AF3E357 /* Login_Extension-umbrella.h */,
+				A0ADCFBCD01F04273C31DF96B90C7F92 /* Login_Extension.debug.xcconfig */,
+				6ED20FE323DEBA14DDCB3F9B6D3AE9D8 /* Login_Extension.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Login_Extension";
@@ -292,11 +298,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2509FBA3EF2FF16068C24A64A84ED6CA /* Headers */ = {
+		53D207422FE0580ABA47F43652388307 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F7FEB9233A59556CE3CBD18D38EED4A /* Pods-MainProject-umbrella.h in Headers */,
+				25F961B19D6A13CBC2D8E9060FF808EA /* Login_Extension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,11 +315,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B212929290C421D536E570C6569973A2 /* Headers */ = {
+		73C8878435399B7D6CA4695EDFBE4016 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34C244BE825F7606282C7B68E7EE4B2E /* Login_Extension-umbrella.h in Headers */,
+				5457E08AEC06C50A1880D92A7936A2F3 /* Pods-MainProject-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,17 +336,17 @@
 /* Begin PBXNativeTarget section */
 		16457CBB6771211DB10E21C2A3AAF08C /* Login_Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A35B6805B815FFB70854AEB80B85B47 /* Build configuration list for PBXNativeTarget "Login_Extension" */;
+			buildConfigurationList = 460E7BE58FBF6D3D38A1058C49586A36 /* Build configuration list for PBXNativeTarget "Login_Extension" */;
 			buildPhases = (
-				B212929290C421D536E570C6569973A2 /* Headers */,
-				D2F6C52E87C776E1D33886F13ECDA69A /* Sources */,
-				DE06E38025FDDA649C0268F2404F2793 /* Frameworks */,
-				957EF1B455461FA8FB956311194EF769 /* Resources */,
+				53D207422FE0580ABA47F43652388307 /* Headers */,
+				5D52CDDC8C90F04CAA2DB0784837204D /* Sources */,
+				0D1DF0E595F9BD75C68B038C0A649671 /* Frameworks */,
+				5EE492E520622F3B447BEB22762F5D50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49A3F4F2EE385CA5830B15A7247C7724 /* PBXTargetDependency */,
+				8A401D9BC143E663E68E93F9FA2A8323 /* PBXTargetDependency */,
 			);
 			name = Login_Extension;
 			productName = Login_Extension;
@@ -367,19 +373,19 @@
 		};
 		6D5626CAB484E0B5D1D729067DD42C92 /* Pods-MainProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22BA9AB2F8FEB6CE6615DF21520E7E70 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */;
+			buildConfigurationList = CC11DA3B7DF0916B16BA5168F6428683 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */;
 			buildPhases = (
-				2509FBA3EF2FF16068C24A64A84ED6CA /* Headers */,
-				F5493C46344A3805E9ECCCB522346728 /* Sources */,
-				18D3582C769606F45A92CA95CD60C7FB /* Frameworks */,
-				876360B6AEA92F25281F30AF741981C3 /* Resources */,
+				73C8878435399B7D6CA4695EDFBE4016 /* Headers */,
+				B8C4D084C0604099280BF977E47764B1 /* Sources */,
+				73125F4ADD682C449F76BE677483D923 /* Frameworks */,
+				CEEE901CC207CF7FE52418EF30E979F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3937DB2EEC618BD746132AF9134EEE9D /* PBXTargetDependency */,
-				06312E086C0BEC4A3E8BA2913720DE78 /* PBXTargetDependency */,
-				149118239C7F41E1C0E541E9B0DC981E /* PBXTargetDependency */,
+				29FDDB03B6460039028F268D42E6D37C /* PBXTargetDependency */,
+				FA4BEEE51C110789E15F697177245B9F /* PBXTargetDependency */,
+				0B9B490E1B357FEC790CD6FF00436357 /* PBXTargetDependency */,
 			);
 			name = "Pods-MainProject";
 			productName = "Pods-MainProject";
@@ -419,6 +425,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 8EF7C25C50E32F6176B0A3E1E6E7DD93 /* Products */;
@@ -441,14 +448,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		876360B6AEA92F25281F30AF741981C3 /* Resources */ = {
+		5EE492E520622F3B447BEB22762F5D50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		957EF1B455461FA8FB956311194EF769 /* Resources */ = {
+		CEEE901CC207CF7FE52418EF30E979F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -465,6 +472,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5D52CDDC8C90F04CAA2DB0784837204D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615446FF86D2352FB470A59995624614 /* Login_Extension-dummy.m in Sources */,
+				198BBA580D8DE74AA70150F32EE0D527 /* Login_Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6743F40045C87906B0BE0456BFE8CEA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,58 +500,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2F6C52E87C776E1D33886F13ECDA69A /* Sources */ = {
+		B8C4D084C0604099280BF977E47764B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45E3E7CA116059DEAC2880BD91CAE606 /* Login_Extension-dummy.m in Sources */,
-				091231AD9867CCB91DF286BD29BB8C07 /* Login_Extension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5493C46344A3805E9ECCCB522346728 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B4D789DC760EF6D6384ACC35CC3526E /* Pods-MainProject-dummy.m in Sources */,
+				BCEAC7A821D8A67663DD1411C06D40E1 /* Pods-MainProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06312E086C0BEC4A3E8BA2913720DE78 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Login;
-			target = 891BBD7E4D1F54F814E1415417E2BC3B /* Login */;
-			targetProxy = 6318A0F73FEDDEB54A797FFC7F05ADA8 /* PBXContainerItemProxy */;
-		};
-		149118239C7F41E1C0E541E9B0DC981E /* PBXTargetDependency */ = {
+		0B9B490E1B357FEC790CD6FF00436357 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Login_Extension;
 			target = 16457CBB6771211DB10E21C2A3AAF08C /* Login_Extension */;
-			targetProxy = 7FB6AC972DEC7EB44FF277AD4AC66C57 /* PBXContainerItemProxy */;
+			targetProxy = FDF00D28ADAADE2A4A631AAF19F2B848 /* PBXContainerItemProxy */;
 		};
-		3937DB2EEC618BD746132AF9134EEE9D /* PBXTargetDependency */ = {
+		29FDDB03B6460039028F268D42E6D37C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CTMediator;
 			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 6D432CA237D0A9249E9AB7B73BB90073 /* PBXContainerItemProxy */;
+			targetProxy = D1E645787740749D249E1637D6F3ABB0 /* PBXContainerItemProxy */;
 		};
-		49A3F4F2EE385CA5830B15A7247C7724 /* PBXTargetDependency */ = {
+		8A401D9BC143E663E68E93F9FA2A8323 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CTMediator;
 			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = AFFC16BC01D626876137FBE160EF1A06 /* PBXContainerItemProxy */;
+			targetProxy = E6C23259C5C9C890CE0CD786D03FC105 /* PBXContainerItemProxy */;
+		};
+		FA4BEEE51C110789E15F697177245B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Login;
+			target = 891BBD7E4D1F54F814E1415417E2BC3B /* Login */;
+			targetProxy = EB6E5B609C5FB0B17C2D735E1EEA28E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F73A7CF8C7650744ADB7AED524B9F87 /* Release */ = {
+		1C07793841C45112D19C1B591D25DF4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A38866A97478F24DFDB3E59FB9D9ECE /* CTMediator.xcconfig */;
+			baseConfigurationReference = 3804950B7816E4F356395ECB0FA39CBA /* Pods-MainProject.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -544,18 +552,54 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
-				PRODUCT_MODULE_NAME = CTMediator;
-				PRODUCT_NAME = CTMediator;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EFE736E9519D2106501022532252D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602FED63F1BFA634C60B98DF2F15AED4 /* Login.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Login/Login-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Login/Login-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Login/Login.modulemap";
+				PRODUCT_MODULE_NAME = Login;
+				PRODUCT_NAME = Login;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -567,10 +611,11 @@
 			};
 			name = Release;
 		};
-		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+		2F8F5A10E41E53360D98263F292D94D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -593,6 +638,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -631,10 +677,83 @@
 			};
 			name = Debug;
 		};
-		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+		367234E0321D91A8877FA5F082D5B1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A586CADD31DB4CB575E2DEC2BD28FF /* CTMediator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47B846540EC7CE7E4125538B05C79088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFDAAADFB97861B33BE3BB603512BD4 /* Pods-MainProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F9AE7FB4ACAB7722C091E1EFA9FF12A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -657,6 +776,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -691,11 +811,10 @@
 			};
 			name = Release;
 		};
-		3E7C2075E08C335531DEF63B50E6F676 /* Release */ = {
+		AC1765C922E01EB6B30D6B2D837E25F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23326CE0F260FF640EF0AFF6B9B2E948 /* Login_Extension.xcconfig */;
+			baseConfigurationReference = 6ED20FE323DEBA14DDCB3F9B6D3AE9D8 /* Login_Extension.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -727,11 +846,10 @@
 			};
 			name = Release;
 		};
-		921372625C3A266701498CAD36EC687E /* Debug */ = {
+		B42BFA0EA69D77D509DDEE5F43B9EAF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9FCB2420976D906D644B2915A4A009B /* Login.xcconfig */;
+			baseConfigurationReference = CD709819C0BB788B5F0CAECFACB3312C /* Login.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -762,11 +880,44 @@
 			};
 			name = Debug;
 		};
-		A617BD67FF0669DBCFAA24DC18016AB8 /* Debug */ = {
+		F931C2E5FEBDAA210975DB67EA7A7338 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A38866A97478F24DFDB3E59FB9D9ECE /* CTMediator.xcconfig */;
+			baseConfigurationReference = A0ADCFBCD01F04273C31DF96B90C7F92 /* Login_Extension.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Login_Extension/Login_Extension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Login_Extension/Login_Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Login_Extension/Login_Extension.modulemap";
+				PRODUCT_MODULE_NAME = Login_Extension;
+				PRODUCT_NAME = Login_Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB8404D80F572106343FB9B21EC6F39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3AD6474F20795A2E3D4A9E3EB2A4A3 /* CTMediator.debug.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -797,171 +948,23 @@
 			};
 			name = Debug;
 		};
-		B0FDE6B005F1053F0D2F6DCFD3C53B38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23326CE0F260FF640EF0AFF6B9B2E948 /* Login_Extension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Login_Extension/Login_Extension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Login_Extension/Login_Extension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Login_Extension/Login_Extension.modulemap";
-				PRODUCT_MODULE_NAME = Login_Extension;
-				PRODUCT_NAME = Login_Extension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BDA02AE067BE799E357631074304F0D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3804950B7816E4F356395ECB0FA39CBA /* Pods-MainProject.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D797C89D5B8DDBC72727505F6EA88CB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9FCB2420976D906D644B2915A4A009B /* Login.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Login/Login-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Login/Login-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Login/Login.modulemap";
-				PRODUCT_MODULE_NAME = Login;
-				PRODUCT_NAME = Login;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FB7D2D92089ACD9B81E50976114A11AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFDAAADFB97861B33BE3BB603512BD4 /* Pods-MainProject.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22BA9AB2F8FEB6CE6615DF21520E7E70 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */ = {
+		3369B102FC665E0387F7D83687AA5301 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB7D2D92089ACD9B81E50976114A11AF /* Debug */,
-				BDA02AE067BE799E357631074304F0D8 /* Release */,
+				FB8404D80F572106343FB9B21EC6F39F /* Debug */,
+				367234E0321D91A8877FA5F082D5B1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3369B102FC665E0387F7D83687AA5301 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+		460E7BE58FBF6D3D38A1058C49586A36 /* Build configuration list for PBXNativeTarget "Login_Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A617BD67FF0669DBCFAA24DC18016AB8 /* Debug */,
-				1F73A7CF8C7650744ADB7AED524B9F87 /* Release */,
+				F931C2E5FEBDAA210975DB67EA7A7338 /* Debug */,
+				AC1765C922E01EB6B30D6B2D837E25F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -969,8 +972,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
-				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+				2F8F5A10E41E53360D98263F292D94D1 /* Debug */,
+				4F9AE7FB4ACAB7722C091E1EFA9FF12A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -978,17 +981,17 @@
 		51A0E7D7124567DB55605AD397BEE6A9 /* Build configuration list for PBXNativeTarget "Login" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				921372625C3A266701498CAD36EC687E /* Debug */,
-				D797C89D5B8DDBC72727505F6EA88CB3 /* Release */,
+				B42BFA0EA69D77D509DDEE5F43B9EAF8 /* Debug */,
+				1EFE736E9519D2106501022532252D5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A35B6805B815FFB70854AEB80B85B47 /* Build configuration list for PBXNativeTarget "Login_Extension" */ = {
+		CC11DA3B7DF0916B16BA5168F6428683 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0FDE6B005F1053F0D2F6DCFD3C53B38 /* Debug */,
-				3E7C2075E08C335531DEF63B50E6F676 /* Release */,
+				47B846540EC7CE7E4125538B05C79088 /* Debug */,
+				1C07793841C45112D19C1B591D25DF4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

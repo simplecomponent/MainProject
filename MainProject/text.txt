@@ -1,0 +1,2 @@
+/Users/Macbook/Desktop/MyProject/XcodeFiles/MainProject/MainProject/build/ZXWKWebVC_VFile Doesn't Exist, Will Create: _20210107.ipa
+/Users/Macbook/Desktop/MyProject/XcodeFiles/MainProject/MainProject/build/ZXWKWebVC_VFile Doesn't Exist, Will Create: .//Info.plist_20210107.ipa
