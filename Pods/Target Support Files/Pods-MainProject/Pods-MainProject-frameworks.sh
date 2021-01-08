@@ -174,7 +174,17 @@ code_sign_if_enabled() {
   fi
 }
 
+if [[ "$CONFIGURATION" == "ADHoc" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Login/Login.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Login_Extension/Login_Extension.framework"
+fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Login/Login.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Login_Extension/Login_Extension.framework"
+fi
+if [[ "$CONFIGURATION" == "PGYER" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Login/Login.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Login_Extension/Login_Extension.framework"

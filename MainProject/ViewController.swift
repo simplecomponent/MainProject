@@ -29,7 +29,6 @@ class ViewController: UIViewController {
         }){
             navigationController?.pushViewController(controller, animated: true)
         }
-
     }
     
     

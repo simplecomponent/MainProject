@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/Login/Login.framework
+${BUILT_PRODUCTS_DIR}/Login_Extension/Login_Extension.framework
